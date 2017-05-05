@@ -1,0 +1,173 @@
+html, body
+{
+    
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+#menu
+{
+    
+   width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: mediumblue;
+    
+}
+
+
+#menu form
+{
+    
+   width: auto;
+    height: auto;
+    
+}
+
+
+#menu form select
+{
+    
+   width: 200px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: white;
+    color: mediumblue;
+    
+}
+
+#color
+{
+    
+   width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#color div
+{
+    
+   width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+    
+}
+
+
+.colorClicked
+{
+    
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+    
+}
+
+
+#container
+{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+    
+}
+
+
+#tools
+{
+    
+    width: 10%;
+    height: 500px;
+    border: 1px solid mediumblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+
+.tool
+{
+    
+   width: 60%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid mediumblue;
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: mediumblue;
+    text-align: center;
+    
+}
+
+
+.tool:hover
+{
+    
+    background-color: mediumblue;
+    color: white;
+    
+}
+
+
+.toolClicked
+{
+    
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid mediumblue;
+    background-color: mediumblue;
+    border-radius: 3px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+#canvas
+ {
+
+    border: 1px solid mediumblue;
+
+ }
